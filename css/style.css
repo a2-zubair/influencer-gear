@@ -1,0 +1,42 @@
+/* general css */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-weight: 400;
+  color: #1b1b1b;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
+
+.header {
+  margin: 100px;
+}
+
+/* custom css */
+
+/* header */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* nav */
+nav ul {
+  margin-top: 10px;
+}
+
+.nav-link {
+  margin-right: 25px;
+  cursor: pointer;
+  font-weight: 600;
+}
