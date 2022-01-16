@@ -118,4 +118,76 @@ nav ul {
   margin: 20px 0;
 }
 
-.
+/* footer */
+/* footer top */
+.footer_top_container {
+  margin: 50px 100px 0;
+}
+
+.footer_top {
+  background-color: #f8f9fa;
+}
+
+.footer_top_container {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0px;
+}
+
+.shipping,
+.money_back,
+.support {
+  display: flex;
+}
+
+.shipping,
+.money_back {
+  border-right: 1px solid #495057;
+  padding-right: 100px;
+}
+
+.shipping_icon,
+.money_back_icon,
+.support_icon {
+  margin-right: 20px;
+  font-size: 30px;
+}
+
+.shipping_text h5,
+.money_back_text h5,
+.support_text h5 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.shipping {
+  margin-right: 100px;
+}
+
+.support {
+  margin-left: 100px;
+}
+
+/* footer bottom */
+.footer_bottom_container {
+  margin: 0 100px;
+  padding: 50px 0;
+}
+
+.footer_bottom {
+  background-color: #e9ecef;
+  text-align: center;
+}
+
+.footer_bottom h2,
+.footer_bottom p {
+  padding: 10px 0;
+}
+
+.fa-instagram,
+.fa-dribbble,
+.fa-twitter,
+.fa-youtube {
+  padding: 10px 10px;
+  font-size: 20px;
+}
