@@ -158,6 +158,15 @@ nav ul {
 .support_text h5 {
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  padding-bottom: 5px;
+}
+
+.shipping_text h6,
+.money_back_text h6,
+.support_text h6 {
+  text-transform: capitalize;
+  font-weight: 300;
+  letter-spacing: 0.1em;
 }
 
 .shipping {
