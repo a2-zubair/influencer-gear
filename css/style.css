@@ -241,6 +241,19 @@ nav ul {
     order: 2;
   }
 
+  /* banner bottom */
+  .banner_bottom_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: none;
+    margin: 100px 80px;
+    padding: 0;
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+
   /* popular */
   .popular_title {
     font-size: 22px;
