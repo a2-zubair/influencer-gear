@@ -118,6 +118,13 @@ nav ul {
   margin: 20px 0;
 }
 
+/* rating */
+.item p {
+  margin: 20px 0;
+  font-weight: 300;
+  color: #8d8d8d;
+}
+
 /* footer */
 /* footer top */
 .footer_top_container {
@@ -234,18 +241,26 @@ nav ul {
     order: 2;
   }
 
+  /* popular */
+  .popular_title {
+    font-size: 22px;
+  }
+
+  /* item container */
+  .item_container {
+    display: grid;
+    grid-template-columns: 340px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
   /* footer */
   /* footer top */
   .footer_top_container {
     display: block;
     margin: 50px 80px 0;
   }
-
-  /* .shipping,
-  .money_back,
-  .support {
-    display: block;
-  } */
 
   .shipping,
   .money_back,
