@@ -228,6 +228,8 @@ nav ul {
   }
 
   nav ul {
+    /* for temporary purspos to use display none for ul. need to update soon */
+    display: none;
     position: fixed;
   }
 
@@ -236,6 +238,33 @@ nav ul {
   }
 
   /* banner */
+  .banner_container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  /* banner left */
+  .banner_left {
+    margin: 50px 0 0;
+  }
+
+  .banner_left_title {
+    font-size: 25px;
+  }
+
+  .banner_left_text {
+    text-align: justify;
+  }
+
+  /* banner right */
+  .banner_right_img {
+    width: 220px;
+  }
+
+  .banner_right {
+    order: 1;
+  }
 
   .banner_left {
     order: 2;
