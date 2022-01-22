@@ -67,9 +67,14 @@ nav ul {
 }
 
 .banner_left_btn {
-  background-color: #383a3b;
+  border: 1px solid #383a3b;
   padding: 15px 30px;
   border-radius: 50px;
+  color: #383a3b;
+}
+
+.banner_left_btn:hover {
+  background-color: #383a3b;
   color: #fff;
 }
 
