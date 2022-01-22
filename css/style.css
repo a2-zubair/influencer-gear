@@ -34,6 +34,28 @@ li {
 /* custom css */
 
 /* header */
+/* logo */
+.logo_container:hover {
+  color: #383a3b;
+  animation-name: logo;
+  animation-duration: 5s;
+  cursor: pointer;
+}
+
+@keyframes logo {
+  0% {
+    color: #f50057;
+  }
+  25% {
+    color: #2979ff;
+  }
+  50% {
+    color: #00e676;
+  }
+  100% {
+    color: #ffc400;
+  }
+}
 
 /* nav */
 nav ul {
@@ -44,6 +66,15 @@ nav ul {
   margin-right: 25px;
   cursor: pointer;
   font-weight: 600;
+}
+
+.nav_link:hover {
+  border-bottom: 2px solid #383a3b;
+  padding-bottom: 10px;
+}
+
+.nav_icon:hover {
+  border: none;
 }
 
 /* banner */
